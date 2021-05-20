@@ -1,5 +1,35 @@
+.canvas {
+    position: absolute;
+    z-index: -2;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: burlywood;
+}
+
 .app {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.dark-app {
+    background-color: black;
+    color: white;
+    padding: 10% 5%;
+}
+
+.light-app {
+    background-color: white;
+    color: black;
+    padding: 10% 5%;
+}
+
+header,
+footer {
+    padding: 5%;
+    background-color: coral;
 }
